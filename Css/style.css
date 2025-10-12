@@ -1,0 +1,17 @@
+body
+{
+      /*la mise en forme de toute la partie vue du site page*/
+      background-color: #09143A;
+}
+.navbar
+{
+     background-color: rgb(100,236,9);
+}
+.serviceContain
+{
+    height: 100%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr;
+}
