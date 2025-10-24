@@ -3,6 +3,7 @@
 <head>
 <title>Twenty-one network</title>
 <meta charset="UTF-8" />
+<link rel="stylesheet" href="Css/styl.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
@@ -16,7 +17,7 @@
         </div>
     </header>
     <!-- botstrap cod-->
-     <nav class="navbar  d-flex justify-content-end navbar-expand-lg " style="background-color: rgb(100,236,9);">
+     <nav class="navbar  d-flex justify-content-end navbar-expand-lg" style="background-color: rgb(100,236,9)">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,9 +58,13 @@ Que vous soyez une entreprise, un particulier ou une organisation.
         <div class="form F3"></div>
        </div>
     </section>
-    <div class="serviceContain w-100 h-auto ">
-	<div class="row  d-flex flex-row  justify-content-center">
-        <div class="col-1 card" style="width: 20rem; height:auto; background-color: rgb(100,236,9);">
+    <!--<div class="row " style="height:30rem;background-image: url('Pictures/services informatique.png');background-position: cover ;">
+    	<img src="" class="" alt="not found">
+    </div>-->
+    <div class="container">
+	<div class="row g-3 d-flex flex-grow-1">
+        <div class="col-12 col-md-6 col-lg-4" >
+	    <div class="card" style=" background-color: rgb(100,236,9);">
             <img src="..." class="card-img-top" alt="not found">
             <div class="card-body">
                 <h5 class="card-title">Maitenance et dépanage informatique</h5>
@@ -72,9 +77,11 @@ Que vous soyez une entreprise, un particulier ou une organisation.
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
+	   </div>
         </div>
          <!---->
-                <div class="col-1 card" style="width: 20rem;background-color: rgb(100,236,9);">
+                <div class="col-12 col-md-6 col-lg-4">
+		<div class="card" style=" background-color: rgb(100,236,9);">
   <img src="..." class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Solutions Cloud & Sauvegarde</h5>
@@ -87,9 +94,11 @@ Que vous soyez une entreprise, un particulier ou une organisation.
     </p>
     <a href="#" class="btn btn-primary">Read more</a>
   </div>
+  </div>
 </div>
         <!---->
-            <div class="col-1 card" style="width:20rem;background-color: rgb(100,236,9);">
+            <div class="col-12 col-md-6 col-lg-4" >
+	   <div class="card" style="background-color: rgb(100,236,9);">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Services d’Impression & Bureautique</h5>
@@ -103,21 +112,25 @@ Nous mettons à votre disposition des outils modernes pour valoriser vos présen
                 </p>
                 <a href="#" class="btn btn-primary">Read more</a>
             </div>
+	  </div>
             </div>
 	</div>
 
         <!-- endblock of first row-->
-	<div class="row d-flex flex-row  justify-content-center gx-2"><!--start block of second row-->
-            <div class="col-1 card" style="width: 20rem;background-color: rgb(100,236,9);">
-                <img src="..." class="card-img-top" alt="...">
+	<div class="row g3 d-flex flex-grow-1"><!--start block of second row-->
+	    <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 20rem;background-color: rgb(100,236,9);">
+                <img src="Pictures/It-support.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-     <div class="col-1 card" style="width: 20rem;background-color: rgb(100,236,9);">
-            <img src="Pictures/bureautique.jpeg" class="card-img-top m-0" alt="...">
+	   </div>
+	<div class="col-12 col-md-6 col-lg-4">
+     	<div class="card" style="width: 20rem;background-color: rgb(100,236,9);">
+            <img src="Pictures/bureautique.jpeg" class="card-img-top " alt="...">
             <div class="card-body">
                 <h5 class="card-title">Formation Informatique</h5>
                 <p class="card-text">
@@ -129,8 +142,10 @@ Nous mettons à votre disposition des outils modernes pour valoriser vos présen
                 </p>
                 <a href="#" class="btn btn-primary">Read more</a>
             </div>
+	</div>
     </div>
-    <div class="col-1 card" style="width: 20rem; background-color: rgb(100,236,9);">
+   <div class="col-12 col-md-6 col-lg-4">
+    <div class="card" style="background-color: rgb(100,236,9);">
         <img src="Pictures/cyberSecurite.png" class="card-img-fluid object-fit-fill"  alt="not found">
         <div class="card-body">
             <h5 class="card-title">🔒 Cybersécurité & Protection des Données</h5>
@@ -147,9 +162,9 @@ Nous mettons à votre disposition des outils modernes pour valoriser vos présen
 	</div>
 	<div class="row  d-flex flex-row  justify-content-center  gy-2">
         <div class="col-1 card" style="width: 20rem;background-color: rgb(100,236,9);">
-            <img src="Pictures/data-analysis.jpeg" class="card-img-top" alt="...">
+            <img src="Pictures/data-analysis.jpeg" class="card-img-top m-0 p-0" alt="...">
             <div class="card-body">
-                <h5 class="card-title">🔍 Service d’Analyse de Données</h5>
+                <h5 class="card-title">🔍 Analyse de Données</h5>
                 <p class="card-text">
                     Transformez vos données en décisions stratégiques.
                     Chez HTB-Services, nous vous aidons à donner un sens aux chiffres. Grâce à des outils modernes d’analyse et de visualisation, nous transformons vos informations brutes en rapports clairs, compréhensibles et exploitables.<br>
@@ -173,7 +188,7 @@ Nous mettons à votre disposition des outils modernes pour valoriser vos présen
             </div>
         </div>
         <div class="col-1 card" style="width: 20rem;background-color: rgb(100,236,9);">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="Pictures/developpement.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"> Developement web</h5>
                 <p class="card-text">
